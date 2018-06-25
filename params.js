@@ -8,17 +8,6 @@ const baseSelectors = [
     menu = ".app-nav__items",
     footer = ".app-footer__container"
 ]
-const baseSelectors = [
-    {logo: ".app-header__logo"},
-    {cartButton: ".cart-button"},
-    {bookAppointmentButton: ".app-header .button--rounded"},
-    {menu: ".app-nav__items"},
-    {footer: ".app-footer__container"}
-]
-
-baseSelectors.forEach(baseSelector => {
-    console.log(baseSelector.value)
-})
 
 // Selectors specific for the homepage
 const homepageSelectors = [

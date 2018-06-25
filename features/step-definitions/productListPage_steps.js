@@ -14,7 +14,7 @@ Given(/^User is on the product list page$/, function () {
 });
 
 When(/^User clicks on sunglasses in the menu$/, function () {
-  productListPage.click(selektor)
+  browser.element(".nav-bar__toggle").click("Óculos de Sol")
   // browser.element(".app-nav__toggle").element("Óculos de Sol").click()
   // browser.element(".app-nav__toggle").getText("Óculos de Sol").click()
   // console.log(browser.getText('div=Óculos de Sol'));
