@@ -6,6 +6,7 @@ const baseSelectors = [
     cartButton = ".cart-button",
     bookAppointmentButton = ".app-header .button--rounded",
     menu = ".app-nav__items",
+    productPages = ".nav-bar__toggle",
     footer = ".app-footer__container"
 ]
 
