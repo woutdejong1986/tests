@@ -6,7 +6,7 @@ const baseSelectors = [
     cartButton = ".cart-button",
     bookAppointmentButton = ".app-header .button--rounded",
     menu = ".app-nav__items",
-    productPages = ".nav-bar__toggle",
+    productPages = ".app-nav__toggle",
     footer = ".app-footer__container"
 ]
 
@@ -29,7 +29,7 @@ const productListPageSelectors = [
     // product = ".product-block",
     promotionBlock = ".promotion-block",
     discountBlock = ".product-listing__discount-block",
-    showMore = ".product-listing__show-more .button"
+    // showMore = ".product-listing__show-more .button"
 ].concat(baseSelectors);
 
 // Selectors specific for empty shopping bag

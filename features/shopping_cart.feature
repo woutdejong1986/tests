@@ -7,9 +7,9 @@ Scenario: Opening empty shopping bag
     When User clicks on the shopping cart icon
     Then The shopping bag should be opened
 
-Scenario: Adding product to shopping bag
-    Given User is on the homepage
-    Then The shopping bag is empty
+# Scenario: Adding product to shopping bag
+    # Given User is on the homepage
+    # Then The shopping bag is empty
 #     When User selects an item
 #     Then Product detail page should be opened
 #     When User adds this item to the shopping bag

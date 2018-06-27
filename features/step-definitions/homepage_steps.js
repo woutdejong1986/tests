@@ -5,7 +5,6 @@ const expect = require('chai').expect;
 const { homepageSelectors } = require('./../../params')
 const cartButton = ".cart-button"
 
-
 const homepage = new HomePage
 
 Given(/^User is on the homepage$/, function() {
