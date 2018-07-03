@@ -8,7 +8,6 @@ const cartPage = new ShoppingCartPage
 
 Given(/^User is in the shopping cart/, function () {
     cartPage.open('/cart')
-    // shoppingBagPage.waitForVisibleElement(".cart__nav")
 })
 
 When(/^User clicks on the shopping cart icon/, function () {

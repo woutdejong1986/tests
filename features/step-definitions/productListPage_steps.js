@@ -17,11 +17,9 @@ const productListPage = new ProductListPage
 
 Given(/^User is on a product list page$/, function () {
   listpages.forEach(listpage => {
-    productListPage.open(listpage); 
+    productListPage.open(listpage);
     productListPage.validate(productListPageSelectors);
-    // Step(/^Product list page should contain these elements/);
   });
-  console.log(productListPageSelectors)
 });
 
 When(/^User clicks on sunglasses in the menu$/, function () {
@@ -31,4 +29,3 @@ When(/^User clicks on sunglasses in the menu$/, function () {
 Then(/^Product list page should contain these elements$/, function() {
   productListPage.validate(productListPageSelectors);
 });
-

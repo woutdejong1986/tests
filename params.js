@@ -29,7 +29,7 @@ const productListPageSelectors = [
     // product = ".product-block",
     promotionBlock = ".promotion-block",
     discountBlock = ".product-listing__discount-block",
-    // showMore = ".product-listing__show-more .button"
+    showMore = ".product-listing__show-more .button"
 ].concat(baseSelectors);
 
 // Selectors specific for empty shopping bag
