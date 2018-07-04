@@ -21,7 +21,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './features/language.feature'
+        './features/*.feature'
         // './features/shopping_bag.feature',
         // './features/productListPage.feature',
     ],
