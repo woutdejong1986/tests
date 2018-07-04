@@ -11,3 +11,4 @@ cucumber_manyrepo_id_rsa.pub
 yarn-error.log
 /.vs
 errorShots/
+wdio.conf.js
