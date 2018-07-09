@@ -10,4 +10,3 @@ Scenario: Navigate to product list page via menu
 Scenario: Check different product list pages
     Given User is on a product list page
     Then Product list page should contain these elements
-

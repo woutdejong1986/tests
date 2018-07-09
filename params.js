@@ -17,6 +17,7 @@ const homepageSelectors = [
     bookAppointmentBlock = ".book-appointment",
     promotionGroup = ".promotion-group",
     smartImageTags = ".smart-image-tags",
+    productPromotions = ".product-promotions",
     promotionBannerGroup = ".promotion-banner-group",
     certificates = ".certificates-list"
 ].concat(baseSelectors);

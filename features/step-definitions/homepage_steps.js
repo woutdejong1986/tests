@@ -14,4 +14,3 @@ Given(/^User is on the homepage$/, function() {
 Then(/^Homepage should at least contain these elements$/, function() {
   homepage.validate(homepageSelectors);
 });
-
