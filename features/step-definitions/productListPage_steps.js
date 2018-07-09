@@ -18,7 +18,6 @@ const productListPage = new ProductListPage
 Given(/^User is on a product list page$/, function () {
   listpages.forEach(listpage => {
     productListPage.open(listpage);
-    productListPage.validate(productListPageSelectors);
   });
 });
 

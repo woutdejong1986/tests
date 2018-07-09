@@ -2,6 +2,7 @@ Feature: Product list page
 
 # Background: User starts on the homepage
 #     Given User is on the homepage
+# Somehow this doesn't work, have to dive into using backgrounds
 
 Scenario: Navigate to product list page via menu
     Given User is on the homepage
