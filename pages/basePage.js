@@ -1,4 +1,6 @@
 const expect = require('chai').expect;
+const assert = require('assert');
+
 
 class basePage {
     constructor(url) {
@@ -36,6 +38,6 @@ class basePage {
     validate (selectors) {
         this.waitForVisibleElements(selectors)
     }
-
+    
 }
 module.exports = basePage

@@ -14,6 +14,7 @@ const baseSelectors = [
 const homepageSelectors = [
     voucher= ".notification-bar",
     carousel= ".image-gallery--carousel",
+    carouselNavigation = ".gallery__nav",
     bookAppointmentBlock = ".book-appointment",
     promotionGroup = ".promotion-group",
     smartImageTags = ".smart-image-tags",
@@ -30,7 +31,7 @@ const productListPageSelectors = [
     // product = ".product-block",
     promotionBlock = ".promotion-block",
     discountBlock = ".product-listing__discount-block",
-    showMore = ".product-listing__show-more .button"
+    showMoreButton = ".product-listing__show-more .button"
 ].concat(baseSelectors);
 
 // Selectors specific for empty shopping bag
@@ -45,10 +46,36 @@ const filledShoppingBagSelectors = [
     cartItem = ".cart-line-item"
 ].concat(baseSelectors);
 
+// Selectors specific for the blog page
+const blogPageSelectors = [
+    blogpage = ".blog-page",
+    blogHero = ".blog-hero",
+    readHeroButton = ".blog-hero__button",
+    blogItem = ".blog-card",
+    showMoreButton = ".blog-list__show-more .button"
+].concat(baseSelectors)
+
+// Selectors specific for the campaign page
+const campaignPageSelectors = [
+    campaignItem = ".campaign-card"
+].concat(baseSelectors)
+
+// Selector specific for the stores page
+const storesPageSelectors = [
+    searchBar =".gv-store-search-form",
+    searchButton = ".gv-store-search-form__submit",
+    storesList = ".gv-store-list",
+    storesMap = ".gv-store-finder__map"
+].concat(baseSelectors)
+
 module.exports = {
     baseSelectors,
     homepageSelectors,
     productListPageSelectors,
     emptyShoppingBagSelectors,
-    filledShoppingBagSelectors
+    filledShoppingBagSelectors,
+    blogPageSelectors,
+    campaignPageSelectors,
+    storesPageSelectors,
+    storesPageSelectors
 }

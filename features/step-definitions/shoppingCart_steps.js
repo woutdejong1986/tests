@@ -19,7 +19,6 @@ Then(/^The shopping bag is empty/, function () {
     cartPage.validate(emptyShoppingBagSelectors)
 });
 
-Then(/^The shopping bag should be opened/, function () { () =>
-    Step(/^The shopping bag is empty/)
-    // doesn't work (yet)
+Then(/^The shopping bag should be opened/, function () {
+    
 });
