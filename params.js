@@ -35,12 +35,12 @@ const productListPageSelectors = [
 ].concat(baseSelectors);
 
 // Selectors specific for empty shopping bag
-const emptyShoppingBagSelectors = [
+const emptyCartSelectors = [
     emptyCartMessage = ".cart__empty-message"
 ].concat(baseSelectors);
 
 // Selectors specific for filled shopping bag
-const filledShoppingBagSelectors = [
+const filledCartSelectors = [
     pricingDetails = ".pricing-details",
     cartNav = ".cart-nav",
     cartItem = ".cart-line-item"
@@ -65,6 +65,7 @@ const storesPageSelectors = [
     searchBar = ".gv-store-search-form",
     searchButton = ".gv-store-search-form__submit",
     storesList = ".gv-store-list",
+    storesOpeningHours = ".store-opening-hours",
     storesMap = ".gv-store-finder__map"
 ].concat(baseSelectors)
 
@@ -72,8 +73,8 @@ module.exports = {
     baseSelectors,
     homepageSelectors,
     productListPageSelectors,
-    emptyShoppingBagSelectors,
-    filledShoppingBagSelectors,
+    emptyCartSelectors,
+    filledCartSelectors,
     blogPageSelectors,
     campaignPageSelectors,
     storesPageSelectors,

@@ -9,7 +9,7 @@ Scenario: Opening empty shopping bag
 
 # Scenario: Adding product to shopping bag
     # Given User is on the homepage
-    # Then The shopping bag is empty
+    # Then The shopping bag should empty
 #     When User selects an item
 #     Then Product detail page should be opened
 #     When User adds this item to the shopping bag
