@@ -12,8 +12,8 @@ const baseSelectors = [
 
 // Selectors specific for the homepage
 const homepageSelectors = [
-    voucher= ".notification-bar",
-    carousel= ".image-gallery--carousel",
+    voucher = ".notification-bar",
+    carousel = ".image-gallery--carousel",
     carouselNavigation = ".gallery__nav",
     bookAppointmentBlock = ".book-appointment",
     promotionGroup = ".promotion-group",
@@ -62,7 +62,7 @@ const campaignPageSelectors = [
 
 // Selector specific for the stores page
 const storesPageSelectors = [
-    searchBar =".gv-store-search-form",
+    searchBar = ".gv-store-search-form",
     searchButton = ".gv-store-search-form__submit",
     storesList = ".gv-store-list",
     storesMap = ".gv-store-finder__map"
