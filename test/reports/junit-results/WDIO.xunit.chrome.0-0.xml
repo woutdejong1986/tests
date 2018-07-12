@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="product_details_page1" timestamp="2018-07-12T16:29:12" time="16.917" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="2c3b1a3924983e22d6fe80d1eb3b14fe"/>
+      <property name="suiteName" value="Product details page1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="navigating_to_sunglasses_details_page5" timestamp="2018-07-12T16:29:12" time="14.988" tests="3" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="2c3b1a3924983e22d6fe80d1eb3b14fe"/>
+      <property name="suiteName" value="Navigating to sunglasses details page5"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Navigating to sunglasses details page5" name="User is on the homepage6" time="17.125"/>
+    <testcase classname="chrome.Navigating to sunglasses details page5" name="User clicks on sunglasses in the menu the list page should be opened7" time="6.286"/>
+    <testcase classname="chrome.Navigating to sunglasses details page5" name="The details page should be opened &quot;sunglasses&quot;8" time="2.143">
+      <error message="&#xA;Step &quot;The details page should be opened &quot;sunglasses&quot;&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/w.dejong/Documents/GrandVision/git-tests/tests/test/features/product_detail.feature:8
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+  <testsuite name="navigating_to_optics_details_page10" timestamp="2018-07-12T16:29:27" time="1.105" tests="3" failures="0" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="2c3b1a3924983e22d6fe80d1eb3b14fe"/>
+      <property name="suiteName" value="Navigating to optics details page10"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Navigating to optics details page10" name="User is on the homepage11" time="2.108"/>
+    <testcase classname="chrome.Navigating to optics details page10" name="User clicks on optics in the menu the list page should be opened12" time="1.007">
+      <error message="&#xA;Step &quot;User clicks on optics in the menu the list page should be opened&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/w.dejong/Documents/GrandVision/git-tests/tests/test/features/product_detail.feature:12
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Navigating to optics details page10" name="The details page should be opened &quot;optics&quot;13" time="1.005">
+      <error message="&#xA;Step &quot;The details page should be opened &quot;optics&quot;&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/w.dejong/Documents/GrandVision/git-tests/tests/test/features/product_detail.feature:13
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+  <testsuite name="navigating_to_lenses_details_page15" timestamp="2018-07-12T16:29:28" time="0.759" tests="3" failures="0" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="2c3b1a3924983e22d6fe80d1eb3b14fe"/>
+      <property name="suiteName" value="Navigating to lenses details page15"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Navigating to lenses details page15" name="User is on the homepage16" time="0.985"/>
+    <testcase classname="chrome.Navigating to lenses details page15" name="User clicks on lenses in the menu the list page should be opened17" time="0.23">
+      <error message="&#xA;Step &quot;User clicks on lenses in the menu the list page should be opened&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/w.dejong/Documents/GrandVision/git-tests/tests/test/features/product_detail.feature:17
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Navigating to lenses details page15" name="The details page should be opened &quot;lenses&quot;18" time="0.229">
+      <error message="&#xA;Step &quot;The details page should be opened &quot;lenses&quot;&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true.&#xA;"/>
+      <system-err>
+        <![CDATA[
+/Users/w.dejong/Documents/GrandVision/git-tests/tests/test/features/product_detail.feature:18
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
