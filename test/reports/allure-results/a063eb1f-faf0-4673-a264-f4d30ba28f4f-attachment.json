@@ -1,4 +1,0 @@
-{
-    "using": "xpath",
-    "value": "//*[contains(@class, \"app-nav__toggle\") and contains(., \"Óculos de Sol\")]"
-}
