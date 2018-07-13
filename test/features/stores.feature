@@ -10,6 +10,5 @@ Scenario: Navigating to stores page
     Then The stores page should be opened
 
 Scenario: Search for store
-    When User clicks on store in the menu
+    When User clicks on stores in the menu
     And Enters a store of choice
-    

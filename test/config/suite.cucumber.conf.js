@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/product_detail.feature',
+        './test/features/product_list.feature',
     ],
     // Patterns to exclude.
     exclude: [
@@ -130,7 +130,9 @@ exports.config = {
     //services: ['selenium-standalone', 'phantomjs', 'appium'],
     //
     framework: 'cucumber',
-    reporters: ['spec', 'junit','allure', 'json'],
+    reporters: ['spec'],
+    // reporters: ['spec', 'junit','allure', 'json'],
+
 
     reporterOptions: {
         junit:  {outputDir: './test/reports/junit-results/'},

@@ -21,7 +21,7 @@ class basePage {
     }
 
     assertElementText (selector, text) {
-        expect(browser.element(selector).getText()).to.be.equal(text)
+        expect(browser.element(selector).getText()).to.be.equal(text);
     }
 
     waitForVisibleElement (selector) {
@@ -30,14 +30,21 @@ class basePage {
 
     waitForVisibleElements (selectors) {
         selectors.forEach(selector => {
-            console.log('waitForVisibleElements', selector)
-            browser.waitForVisible(selector)
+            console.log('waitForVisibleElements', selector);
+            browser.waitForVisible(selector);
         });
     }
 
     validate (selectors) {
-        this.waitForVisibleElements(selectors)
+        this.waitForVisibleElements(selectors);
+    }
+
+    setValue (selector, value) {
+        browser.setValue(selector, value);
     }
     
+    submitForm (selector) {
+        browser.submitForm(selector);
+    }
 }
 module.exports = basePage
