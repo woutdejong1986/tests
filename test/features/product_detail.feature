@@ -2,17 +2,18 @@ Feature: Product details page
 
    Feature Description
 
-Scenario: Navigating to sunglasses details page
+Background: User is on the homepage
     Given User is on the homepage
-    When User clicks on sunglasses in the menu the list page should be opened
-    # Then The details page should be opened "sunglasses"
 
-Scenario: Navigating to optics details page
-    Given User is on the homepage
+Scenario: Navigating to sunglasses details page
+    When User clicks on sunglasses in the menu
+    And Chooses a product from the list
+    Then The "sunglasses" details page should be opened
+
+# Scenario: Navigating to optics details page
     # When User clicks on optics in the menu the list page should be opened
     # Then The details page should be opened "optics"
     
-Scenario: Navigating to lenses details page
-    Given User is on the homepage
+# Scenario: Navigating to lenses details page
     # When User clicks on lenses in the menu the list page should be opened
     # Then The details page should be opened "lenses"

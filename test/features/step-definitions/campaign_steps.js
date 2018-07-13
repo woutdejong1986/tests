@@ -3,12 +3,12 @@ const CampaignPage = require('../../pages/campaignPage');
 const { campaignPageSelectors } = require('./../../../params')
 const campaignSelector = ".app-nav__link*=Campanhas"
 
-const campaignPage = new CampaignPage
+const page = new CampaignPage
 
-When(/^User clicks on campaigns in the menu/, function () {
-    campaignPage.click(campaignSelector);
+When(/^User clicks on campaigns in the menu$/, function () {
+    page.click(campaignSelector);
 })
 
-Then(/^The campaign page should be opened/, function () {
-    campaignPage.validate(campaignPageSelectors);
+Then(/^The campaign page should be opened$/, function () {
+    page.validate(campaignPageSelectors);
 })

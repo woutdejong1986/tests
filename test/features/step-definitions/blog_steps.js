@@ -3,12 +3,12 @@ const BlogPage = require('../../pages/blogPage');
 const { blogPageSelectors } = require('./../../../params')
 const blogSelector = ".app-nav__link*=Cuidados Visuais"
 
-const blogPage = new BlogPage
+const page = new BlogPage
 
-When(/^User clicks on blog in the menu/, function () {
-    blogPage.click(blogSelector);
+When(/^User clicks on blog in the menu$/, function () {
+    page.click(blogSelector);
 })
 
-Then(/^The blog page should be opened/, function () {
-    blogPage.validate(blogPageSelectors);
+Then(/^The blog page should be opened$/, function () {
+    page.validate(blogPageSelectors);
 })

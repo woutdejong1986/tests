@@ -1,14 +1,17 @@
 const { Given, When, Then } = require('cucumber');
 const StoresPage = require('../../pages/storesPage');
-const { storesPageSelectors } = require('./../../../params')
-const storesSelector = ".app-nav__link*=Lojas"
+const { storesPageSelectors, storesSelector } = require('./../../../params')
 
-const storesPage = new StoresPage
+const page = new StoresPage
 
-When(/^User clicks on stores in the menu/, function () {
-    storesPage.click(storesSelector);
-})
+When(/^User clicks on stores in the menu$/, function () {
+    page.click(storesSelector);
+});
 
-Then(/^The stores page should be opened/, function () {
-    storesPage.validate(storesPageSelectors);
+Then(/^The stores page should be opened$/, function () {
+    page.validate(storesPageSelectors);
+});
+
+When(/^Enters a store of choice$/, function () {
+
 })
