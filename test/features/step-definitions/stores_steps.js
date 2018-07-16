@@ -1,6 +1,6 @@
 const { Given, When, Then } = require('cucumber');
 const StoresPage = require('../../pages/storesPage');
-const { storesPageSelectors, storesSelector } = require('./../../../params')
+const { storesPageSelectors, storesSelector, searchBar, searchButton } = require('./../../../params')
 
 const page = new StoresPage
 
@@ -13,5 +13,13 @@ Then(/^The stores page should be opened$/, function () {
 });
 
 When(/^Enters a store of choice$/, function () {
+    page.setValue(searchBar, "coimbra")
+    page.click(searchButton)
+})
 
+When(/^Chooses a store from the list/, function () {
+    page.click(".button__text*=Selecionar")
+})
+
+Then(/^The appointment booking tool should be opened/, function () {
 })

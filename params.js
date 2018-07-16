@@ -1,6 +1,6 @@
 // File with all the element selectors used in the tests. When a selector is changed, you only have to change it here.
 
-// Selectors that should be available on all pages
+// Selectors that should be present on all pages
 const logo = ".app-header__logo",
     cartButton = ".cart-button",
     bookAppointmentButton = ".app-header .button--rounded",
@@ -22,7 +22,7 @@ const logo = ".app-header__logo",
      storesSelector
     ]
 
-// Selectors specific for the homepage
+// Selectors for the homepage
 const voucher = ".notification-bar",
     carousel = ".image-gallery--carousel",
     carouselNavigation = ".gallery__nav",
@@ -46,11 +46,11 @@ const homepageSelectors = [
     certificates,
 ]
 
-// Selectors specific for product list page
+// Selectors for product list page
 const uspGroup = ".usp-group",
     productListerBanner = ".product-lister-banner",
     productSort = ".product-sort",
-    product = ".product-block",
+    // product = ".product-block",
     promotionBlock = ".promotion-block",
     discountBlock = ".product-listing__discount-block",
     showMoreButton = ".product-listing__show-more .button"
@@ -60,7 +60,7 @@ const productListPageSelectors = [
     uspGroup,
     productListerBanner,
     productSort,
-    product,
+    // product,
     promotionBlock,
     discountBlock,
     showMoreButton,
@@ -91,7 +91,7 @@ const productDetailPageSelectors = [
     shippingReturnInfo
 ]
 
-// Selectors specific for sunglasses detail page
+// Selectors for sunglasses detail page
 const measurements = ".product-detail-frame-measurements__items",
     productFeatures = ".product-detail-features",
     addToCartButton = ".product-detail__cart-details .button"
@@ -103,7 +103,7 @@ const sunglassesDetailPageSelectors = [
     addToCartButton
 ]
 
-// Selectors specific for empty shopping bag
+// Selectors for empty shopping cart
 const emptyCartMessage = ".cart__empty-message"
 
 const emptyCartSelectors = [
@@ -111,7 +111,7 @@ const emptyCartSelectors = [
     emptyCartMessage
 ]
 
-// Selectors specific for filled shopping bag
+// Selectors for filled shopping cart
 const pricingDetails = ".pricing-details",
     cartNav = ".cart-nav",
     cartItem = ".cart-line-item"
@@ -122,7 +122,7 @@ const filledCartSelectors = [
     cartItem
 ]
 
-// Selectors specific for the blog page
+// Selectors for the blog page
 const blogPage = ".blog-page",
     headerItem = ".blog-hero",
     readHeaderItemButton = ".blog-hero__button",
@@ -138,7 +138,7 @@ const blogPageSelectors = [
     blogPageShowMoreButton
 ]
 
-// Selectors specific for the campaign page
+// Selectors for the campaign page
 const campaignItem = ".campaign-card"
 
 const campaignPageSelectors = [
@@ -146,8 +146,8 @@ const campaignPageSelectors = [
     campaignItem
 ]
 
-// Selector specific for the stores page
-const searchBar = ".gv-store-search-form",
+// Selector for the stores page
+const searchBar = ".form-control__input",
     searchButton = ".gv-store-search-form__submit",
     storesList = ".gv-store-list",
     storesOpeningHours = ".store-opening-hours",
@@ -175,6 +175,8 @@ module.exports = {
     storesSelector,
     sunglasses,
     optics,
-    lenses
+    lenses,
+    searchBar,
+    searchButton
 }
 
