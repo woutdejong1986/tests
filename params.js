@@ -30,6 +30,7 @@ const voucher = ".notification-bar",
     promotionGroup = ".promotion-group",
     smartImageTags = ".smart-image-tags",
     productPromotions = ".product-promotions",
+    productPromotionHighlight = ".product-promotions__wrapper--highlighted",
     promotionBannerGroup = ".promotion-banner-group",
     certificates = ".certificates-list"
 
@@ -177,6 +178,9 @@ module.exports = {
     optics,
     lenses,
     searchBar,
-    searchButton
+    searchButton,
+    cartButton,
+    productPromotionHighlight,
+    addToCartButton
 }
 

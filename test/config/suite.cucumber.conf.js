@@ -75,31 +75,31 @@ exports.config = {
           //     //  ],
           // },
           //
-          // {
-          //     browserName: 'chrome',
-          //     chromeOptions: {
-          //       // run in headless mode
-          //       args: ['--headless'],
-          //       //binary:   '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
-          //       binary:   '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'  //for OS X
-          //       //binary:   '/Program Files (x86)/Google/Chrome/Application/chrome.exe'     //for windows7
-          //     },
-          //     platform: '',
-          //     version: '',
-          //     maxInstances: '5',
-          //     // specs: [
-          //     //     './test/specs/*.js'
-          //     // ],
-          // },
+        //   {
+        //       browserName: 'chrome',
+        //       chromeOptions: {
+        //         // run in headless mode
+        //         args: ['--headless'],
+        //         //binary:   '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
+        //         binary:   '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'  //for OS X
+        //         //binary:   '/Program Files (x86)/Google/Chrome/Application/chrome.exe'     //for windows7
+        //       },
+        //       platform: '',
+        //       version: '',
+        //       maxInstances: '5',
+        //       // specs: [
+        //       //     './test/specs/*.js'
+        //       // ],
+        //   },
           //
-          // {
-          //     browserName: 'firefox',
-          //     // platform: 'Windows 10',
-          //     // version: '50.0',
-          //     maxInstances: '5',
-          //     // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
-          //     "moz:firefoxOptions": { args: ['-headless'] }
-          // },
+        //   {
+        //       browserName: 'firefox',
+        //       // platform: 'Windows 10',
+        //       // version: '50.0',
+        //       maxInstances: '5',
+        //       // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
+        //       "moz:firefoxOptions": { args: ['-headless'] }
+        //   },
     ],
     //
     // ===================

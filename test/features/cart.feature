@@ -2,17 +2,18 @@ Feature: Shopping bag
 
    Feature Description
 
-Scenario: Opening empty shopping bag
+Background: User is on the homepage
     Given User is on the homepage
-    When User clicks on the shopping cart icon
-    Then The shopping bag should be opened
 
-# Scenario: Adding product to shopping bag
-    # Given User is on the homepage
-    # Then The shopping bag should empty
-#     When User selects an item
-#     Then Product detail page should be opened
-#     When User adds this item to the shopping bag
+Scenario: Adding product via list page
+    When User clicks on the shopping cart icon
+    And Navigates to sunglasses product list page
+    And Chooses a product from the list page
+    And Adds the product to his shopping cart
+
+# Scenario: Adding product via product promotion on homepage
+#     When User selects an item from product promotions
+#     When Adds the product to his shopping cart
 #     Then A pop up should say "Adicionar ao cesto"
 #     And Shopping bag icon on top of the page should show "1"
 
