@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/product_list.feature',
+        './test/features/checkout.feature',
     ],
     // Patterns to exclude.
     exclude: [

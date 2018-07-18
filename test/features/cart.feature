@@ -7,9 +7,11 @@ Background: User is on the homepage
 
 Scenario: Adding product via list page
     When User clicks on the shopping cart icon
-    And Navigates to sunglasses product list page
-    And Chooses a product from the list page
-    And Adds the product to his shopping cart
+    And User navigates to sunglasses product list page
+    And User chooses a product from the list page
+    And User adds the product to his shopping cart
+    And User clicks on the shopping cart icon
+    Then The shopping cart should be opened with products
 
 # Scenario: Adding product via product promotion on homepage
 #     When User selects an item from product promotions

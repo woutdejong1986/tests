@@ -113,11 +113,23 @@ const emptyCartSelectors = [
 ]
 
 // Selectors for filled shopping cart
-const pricingDetails = ".pricing-details",
+const cartItemImage = ".cart-line-item__image",
+    cartItemBrand = ".cart-line-item__title",
+    cartItemModel = ".cart-line-item__number",
+    deleteButton = ".cart-line-item__delete-btn",
+    minusButton = ".icon.icon--minus",
+    plusButton = ".icon.icon--plus",
+    pricingDetails = ".pricing-details",
     cartNav = ".cart-nav",
     cartItem = ".cart-line-item"
 
 const filledCartSelectors = [
+    cartItemImage,
+    cartItemBrand,
+    cartItemModel,
+    deleteButton,
+    minusButton,
+    plusButton,
     pricingDetails,
     cartNav,
     cartItem
@@ -147,7 +159,7 @@ const campaignPageSelectors = [
     campaignItem
 ]
 
-// Selector for the stores page
+// Selectors for the stores page
 const searchBar = ".form-control__input",
     searchButton = ".gv-store-search-form__submit",
     storesList = ".gv-store-list",
@@ -160,6 +172,20 @@ const storesPageSelectors = [
     storesList,
     storesOpeningHours,
     storesMap
+]
+
+// Selectors for the checkout (pages)
+const logoCheckout = ".logo",
+    checkoutNav = ".checkout-nav",
+    deliveryButton = ".radio-button-group__input",
+    addressForm = ".address-form"
+
+
+const checkoutSelectors = [
+    logoCheckout,
+    checkoutNav,
+    deliveryButton,
+    addressForm
 ]
 
 module.exports = {

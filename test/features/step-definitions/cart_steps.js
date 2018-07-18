@@ -12,28 +12,31 @@ const page = new CartPage
 
 When(/^User clicks on the shopping cart icon$/, function () {
     page.click(cartButton)
-    page.validate(emptyCartSelectors)
 });
 
-When(/^Navigates to sunglasses product list page/, function () {
+When(/^User navigates to sunglasses product list page/, function () {
     page.click(sunglasses)
 })
 
-When(/^Chooses a product from the list page/, function () {
-    page.waitForVisibleElement(".product-block")
+When(/^User chooses a product from the list page/, function () {
+    // page.waitForVisibleElement(".product-block")
     page.click(".product-block")
     page.validate(sunglassesDetailPageSelectors)
 })
 
-When(/^Adds the product to his shopping cart/, function () {
+When(/^User adds the product to his shopping cart/, function () {
     page.click(addToCartButton)
-    page.waitForVisibleElement(".add-to-cart-notificationn")
+    page.waitForVisibleElement(".add-to-cart-notification")
 })
 
 When(/^User selects an item from product promotions/, function () {
     page.click(productPromotionHighlight)
 })
 
-Then(/^The shopping bag should be opened$/, function () {
+Then(/^The shopping bag should be opened without products$/, function () {
     page.validate(emptyCartSelectors)
+});
+
+Then(/^The shopping bag should be opened with products$/, function () {
+    page.validate(filledCartSelectors)
 });
