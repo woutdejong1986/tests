@@ -10,4 +10,4 @@ Background: User adds products to shopping cart
     And User proceeds to checkout
 
 Scenario: 
-    And User does something
+    And User fills in address form

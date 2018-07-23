@@ -10,7 +10,7 @@ Then(/^The title of the page has to be "([^"]*)"$/, function (title) {
   page.assertTitle(title);
 });
 
-Then(/Book appointment button contains "([^"]*)"$/, function (text) {
+Then(/^Book appointment button contains "([^"]*)"$/, function (text) {
   page.assertElementText(button, text);
 });
 

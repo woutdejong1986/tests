@@ -30,8 +30,9 @@ class basePage {
 
     waitForVisibleElements (selectors) {
         selectors.forEach(selector => {
-            console.log('waitForVisibleElements', selector);
-            browser.waitForVisible(selector);
+            console.log('start waitForVisibleElements', selector);
+            browser.waitForVisible(selector)
+            console.log('end waitForVisibleElements', selector);
         });
     }
 

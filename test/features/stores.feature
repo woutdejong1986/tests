@@ -2,12 +2,8 @@ Feature: Stores
 
    Feature Description
 
-Background: User navigates to stores page
+Background: Homepage is displayed
     Given User is on the homepage
-
-Scenario: Navigating to stores page
-    When User clicks on stores in the menu
-    Then The stores page should be opened
 
 Scenario: Search for store
     When User clicks on stores in the menu

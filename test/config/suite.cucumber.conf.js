@@ -35,20 +35,20 @@ exports.config = {
               // version: '50.0',
               maxInstances: '5',
           },
-          //
-          // {
-          //     browserName: 'firefox',
-          //     // platform: 'Windows 10',
-          //     // version: '50.0',
-          //     maxInstances: '5',
-          // },
+        //
+        // {
+        //     browserName: 'firefox',
+        //     // platform: 'Windows 10',
+        //     // version: '50.0',
+        //     maxInstances: '5',
+        // },
 
-          // {
-          //     browserName: 'safari',
-          //     // platform: 'Windows 10',
-          //     // version: '50.0',
-          //     maxInstances: '5',
-          // },
+        // {
+        //     browserName: 'safari',
+        //     // platform: 'Windows 10',
+        //     // version: '50.0',
+        //     maxInstances: '5',
+        // },
           //
           // {
           //     browserName: 'internet explorer',
@@ -117,8 +117,8 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://localhost:8080',
-    waitforTimeout: 40000,            // Default timeout for all waitFor* commands.
+    baseUrl: 'http://51.137.101.19',
+    waitforTimeout: 30000,            // Default timeout for all waitFor* commands.
     connectionRetryTimeout: 90000,    // Default timeout in milliseconds for request  if Selenium Grid doesn't send response
     connectionRetryCount: 3,          // Default request retries count
 

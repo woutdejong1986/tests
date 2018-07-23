@@ -163,14 +163,15 @@ const campaignPageSelectors = [
 const searchBar = ".form-control__input",
     searchButton = ".gv-store-search-form__submit",
     storesList = ".gv-store-list",
-    storesOpeningHours = ".store-opening-hours",
+    storesOpeningHours = ".gv-store-item__opening-hours",
     storesMap = ".gv-store-finder__map"
     
 const storesPageSelectors = [
+    ...baseSelectors,
     searchBar,
     searchButton,
     storesList,
-    storesOpeningHours,
+    // storesOpeningHours,
     storesMap
 ]
 
