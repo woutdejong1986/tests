@@ -9,13 +9,17 @@ When(/^User clicks on stores in the menu$/, function () {
     page.validate(storesPageSelectors);
 });
 
-When(/^Enters a store of choice$/, function () {
-    page.setValue(searchBar, "coimbra")
+When(/^Enters a city of choice "([^"]*)"$/, function (city) {
+    page.setValue(searchBar, city)
     page.click(searchButton)
 });
 
 When(/^Chooses a store from the list/, function () {
     page.click(".button__text*=Selecionar")
+});
+
+Then(/^The "([^"]*)" should be in the url/, function (storeID) {
+    
 });
 
 Then(/^The appointment booking tool should be opened/, function () {

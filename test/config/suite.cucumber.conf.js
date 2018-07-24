@@ -35,20 +35,20 @@ exports.config = {
               // version: '50.0',
               maxInstances: '5',
           },
-        //
-        // {
-        //     browserName: 'firefox',
-        //     // platform: 'Windows 10',
-        //     // version: '50.0',
-        //     maxInstances: '5',
-        // },
+        
+        {
+            browserName: 'firefox',
+            // platform: 'Windows 10',
+            // version: '50.0',
+            maxInstances: '5',
+        },
 
-        // {
-        //     browserName: 'safari',
-        //     // platform: 'Windows 10',
-        //     // version: '50.0',
-        //     maxInstances: '5',
-        // },
+        {
+            browserName: 'safari',
+            // platform: 'Windows 10',
+            // version: '50.0',
+            maxInstances: '5',
+        },
           //
           // {
           //     browserName: 'internet explorer',

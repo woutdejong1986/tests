@@ -10,6 +10,6 @@ When(/^User proceeds to checkout$/, function () {
     page.validate(addressFormSelectors)
 });
 
-When(/^User fills in address form/, function () {
+When(/^User fills in address form$/, function () {
     page.setValue
-})
+});
