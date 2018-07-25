@@ -1,5 +1,6 @@
 const { Given, When, Then } = require('cucumber');
 import ProductDetailPage from '../../pages/productDetailPage'
+import productDetailPage from '../../pages/productDetailPage';
 const { productListPageSelectors, sunglassesDetailPageSelectors } = require('./../../../params')
 
 const page = new ProductDetailPage

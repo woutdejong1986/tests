@@ -10,10 +10,10 @@ Scenario: Navigating to sunglasses details page
     And Chooses a product from the list
     Then The "sunglasses" details page should be opened
 
-# Scenario: Navigating to optics details page
-    # When User clicks on optics in the menu the list page should be opened
-    # Then The details page should be opened "optics"
+Scenario: Navigating to optics details page
+    When User clicks on optics in the menu
+    Then The "optics" details page should be opened
     
-# Scenario: Navigating to lenses details page
-    # When User clicks on lenses in the menu the list page should be opened
-    # Then The details page should be opened "lenses"
+Scenario: Navigating to lenses details page
+    When User clicks on lenses in the menu
+    Then The "lenses" details page should be opened

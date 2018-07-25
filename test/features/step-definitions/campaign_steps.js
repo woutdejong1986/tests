@@ -7,8 +7,5 @@ const page = new CampaignPage
 
 When(/^User clicks on campaigns in the menu$/, function () {
     page.click(campaignSelector);
-})
-
-Then(/^The campaign page should be opened$/, function () {
     page.validate(campaignPageSelectors);
 })

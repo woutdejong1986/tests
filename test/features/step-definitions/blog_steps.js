@@ -7,8 +7,5 @@ const page = new BlogPage
 
 When(/^User clicks on blog in the menu$/, function () {
     page.click(blogSelector);
-})
-
-Then(/^The blog page should be opened$/, function () {
     page.validate(blogPageSelectors);
 })

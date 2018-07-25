@@ -1,5 +1,6 @@
 const { Given, When, Then } = require('cucumber');
 const CartPage = require('../../pages/cartPage')
+const addToCartNotification = ".add-to-cart-notification"
 const { filledCartSelectors, 
     emptyCartSelectors,
     cartButton,
@@ -26,7 +27,7 @@ When(/^User chooses a product from the list page/, function () {
 
 When(/^User adds the product to his shopping cart/, function () {
     page.click(addToCartButton)
-    page.waitForVisibleElement(".add-to-cart-notification")
+    page.waitForVisibleElement(addToCartNotification)
 })
 
 When(/^User selects an item from product promotions/, function () {
